@@ -1,6 +1,6 @@
 # µsignal-rb
 
-This is a based on [WebReflection/usignal](https://github.com/WebReflection/usignal),
+This is based on [WebReflection/usignal](https://github.com/WebReflection/usignal),
 with some modifications.
 
 I don't know if it even works or if it can be used for anything.
