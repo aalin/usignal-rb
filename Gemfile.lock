@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    usignal (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.3)
+    method_source (1.0.0)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    rake (13.0.6)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  pry
+  rake (~> 13.0)
+  usignal!
+
+BUNDLED WITH
+   2.3.26
