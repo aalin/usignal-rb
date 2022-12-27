@@ -88,13 +88,13 @@ dispose = U.effect do
 end
 
 title "push 1 asd"
-state[:items].push({id: 1, title: "asd"})
+state[:items].push(id: 1, title: "asd")
 
 title "set title to hopp"
 state[:items].first[:title] = "hopp"
 
 title "pushing item"
-state[:items].push({id: 2, title: "asd"})
+state[:items].push(id: 2, title: "asd")
 
 title "batch"
 
@@ -114,7 +114,10 @@ U.batch do
 end
 
 title "Pushing item"
-state[:items].push({id: 3, title: "asd"})
+state[:items].push(id: 3, title: state[:items].first[:title])
+
+title "set title to hatt"
+state[:items].first[:title] = "hatt"
 
 title "Popping item"
 state[:items].pop
